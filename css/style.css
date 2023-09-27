@@ -20,10 +20,18 @@ ul, ol {
    margin: 0;
    padding: 0;
 }
-.ul-items{
-    justify-content: space-between;
-    align-items: center;
-}
 .header-list{
   display: flex;
 } 
+.header-list li {
+    margin-right: 29px; 
+    align-items: center;
+    color: var(--header-black-color);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93px; 
+    background-color: var(--header-color); 
+}
