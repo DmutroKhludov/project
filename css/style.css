@@ -1,0 +1,29 @@
+:root{
+   --header-color: #012D63;
+   --Buy-color: #8E32C6;
+   --text-colo: #FFFFFF;
+   --header-black-color: #C7C7C7;
+   --order-color: #959595;
+   --ua-color: #DCDCDC;
+   --time-color: #D8D8D8;
+}
+::after,
+::before{
+   box-sizing:border-box ;
+}
+h1, h2, h3, h4, h5, h6, p {
+   margin-bottom: 0;
+   margin-top: 0;
+}
+ul, ol {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.ul-items{
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+  display: flex;
+} 
