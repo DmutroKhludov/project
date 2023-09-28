@@ -1,28 +1,12 @@
 :root{
    --header-color: #012D63;
    --Buy-color: #8E32C6;
-   --text-colo: #FFFFFF;
+   --text-color: #FFFFFF;
    --header-black-color: #C7C7C7;
    --order-color: #959595;
    --ua-color: #DCDCDC;
    --time-color: #D8D8D8;
 }
-::after,
-::before{
-   box-sizing:border-box ;
-}
-h1, h2, h3, h4, h5, h6, p {
-   margin-bottom: 0;
-   margin-top: 0;
-}
-ul, ol {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-.header-list{
-  display: flex;
-} 
 .header-list li {
     margin-right: 29px; 
     align-items: center;
@@ -34,4 +18,30 @@ ul, ol {
     align-items: center;
     height: 93px; 
     background-color: var(--header-color); 
+
+}
+.section-colorawe {
+   background-image: url(./images/fon-nike.jpg);
+   background-size: cover; 
+   background-position: center; 
+   color: rgb(238, 3, 3); 
+   text-align: left;
+   padding: 156px; 
+   
+}
+.header-list{
+   display: flex;
+}
+.header-button{
+    color: var(--text-color);
+    background: var(--Buy-color);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    width: 254px;
+    height: 67px;
+}
+.language{
+   color: var(--header-black-color);
 }
