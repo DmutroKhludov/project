@@ -88,6 +88,15 @@
    background-size: cover; 
    color: var(--text-color);
 }
+.section-reviews{
+   background: url(/images/fon-reviews.jpg);
+   background-size: cover;
+   height: 520px;
+   color: var(--text-color);
+}
+.name-order{
+   margin-top: 40px ;
+}
 
 
 
