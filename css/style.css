@@ -19,7 +19,7 @@
 
 }
 .section-colorawe {
-   background-image: url(/images/fon-nike.jpg);
+   background-image: url(../images/fon-nike.jpg);
    background-size: cover; 
    background-position: center; 
    color: var(--text-color); 
@@ -84,12 +84,12 @@
    justify-content: space-between;
 }
 .section-quality{
-   background: url(/images/fon-premium.jpg);
+   background: url(../images/fon-premium.jpg);
    background-size: cover; 
    color: var(--text-color);
 }
 .section-reviews{
-   background: url(/images/fon-reviews.jpg);
+   background: url(../images/fon-reviews.jpg);
    background-size: cover;
    height: 520px;
    color: var(--text-color);
