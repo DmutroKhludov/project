@@ -6,6 +6,7 @@
    --order-color: #959595;
    --ua-color: #DCDCDC;
    --time-color: #D8D8D8;
+   --footer-color:#021635;
 }
 .header-list li {
     margin-right: 29px; 
@@ -91,11 +92,15 @@
 .section-reviews{
    background: url(../images/fon-reviews.jpg);
    background-size: cover;
-   height: 520px;
    color: var(--text-color);
 }
-.name-order{
-   margin-top: 40px ;
+.section-order{
+   background: url(../images/fon-order.jpg);
+   background-size: cover;
+}
+.footer{
+   background: var(--footer-color);
+   color: var(--text-color);
 }
 
 
