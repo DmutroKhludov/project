@@ -13,25 +13,21 @@
     color: var(--header-black-color);
 }
 .header {
-    display: flex;
-    height: 93px; 
     background-color: var(--header-color); 
-   
-
+   padding-top: 16px;
+   padding-bottom: 16px;
 }
 .section-colorawe {
    background-image: url(../images/fon-nike.jpg);
    background-size: cover; 
    background-position: center; 
    color: var(--text-color); 
-   text-align: left;
-   padding: 156px; 
+   padding-top: 94px;
+   padding-bottom: 183px;
 }
 .header-list{
    display: flex;
-   margin-left: 420px;
-   font-size: 24px;
-  margin-top: 25px;
+   font-size: 24px; 
 }
 .header-button{
     color: var(--text-color);
@@ -75,6 +71,7 @@
 }
 .h1-colorawe{
    font-size: 144px;
+   font-family: 'Playfair Display', serif; 
 }
 .name-logo{
    font-size: 48px;
@@ -97,11 +94,18 @@
 .section-order{
    background: url(../images/fon-order.jpg);
    background-size: cover;
+   color: var(--text-color);
 }
 .footer{
    background: var(--footer-color);
    color: var(--text-color);
 }
+.div-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
 
 
 
