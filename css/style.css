@@ -40,7 +40,8 @@
     height: 67px;
 }
 .language{
-   color: var(--header-black-color)
+   color: var(--header-black-color);
+   margin: 4px;
 }
 .quality{
    margin: 145px;
@@ -104,6 +105,9 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+.language-list{
+   display: flex;
 }
 
 
