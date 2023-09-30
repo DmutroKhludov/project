@@ -45,17 +45,13 @@
 }
 .quality{
    margin: 145px;
-   
+   font-family: 'Playfair Display', serif;
 }
 .list-quality{
    display: flex;
    justify-content: space-between;
 }
-.line{
-   width: 1px;
-   height: 346px;
-   background: var(--header-black-color);
-}
+
 .container{
    width: 1200px;
    margin: 0 auto;
@@ -87,11 +83,6 @@
    background-size: cover; 
    color: var(--text-color);
 }
-.section-reviews{
-   background: url(../images/fon-reviews.jpg);
-   background-size: cover;
-   color: var(--text-color);
-}
 .section-order{
    background: url(../images/fon-order.jpg);
    background-size: cover;
@@ -109,6 +100,73 @@
 .language-list{
    display: flex;
 }
+.name-reviews{
+   font-family: 'Playfair Display', serif;
+}
+.name-order{
+   font-family: 'Playfair Display', serif;
+}
+.div-background-john{
+   background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+   box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+   border-radius: 15px;
+   width: 255px;
+   height: 292px;
+}
+.div-background-elizabeth{
+   background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+   box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+   border-radius: 15px;
+   width: 255px;
+   height: 292px;
+}
+.div-background-tom{
+   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+   box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+   border-radius: 15px;
+   width: 255px;
+   height: 292px;
+}
+.section-reviews{
+   background: url(../images/fon-reviews.jpg);
+   background-size: cover;
+   color: var(--text-color);
+}
+.ul-reviews{
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Roboto', sans-serif;
+}
+.reviews-text{
+   margin-top: 49px;
+   font-size: 24px;
+   color: var(--text-color);
+   font-style: normal;
+   line-height: normal;
+   font-weight: 400;
+   width: 228px;
+   margin-left: 10px;
+}
+.reviews-time{
+   font-size: 14px;
+   color: var(--time-color);
+   margin-top: 8px;
+   margin-left: 10px;
+}
+.reviews-name{
+   font-size: 14px;
+   color: var(--text-color);
+   margin-left: 10px;
+}
+.reviews-data{
+   font-size: 12px;
+   color: var(--time-color);
+   margin-left: 10px;
+}
+.reviews-flowers{
+
+}
+
 
 
 
