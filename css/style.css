@@ -167,8 +167,28 @@
    font-size: 12px;
    color: var(--time-color);
 }
-.footer-colorawe{
-
+.quality-div {
+   border: 5px solid var(--Buy-color);
+   padding: 20px; 
+   width: 1110px;
+   height: 396px;
+}
+.quality {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px 0;
+   position: relative; 
+   font-family: 'Playfair Display', serif;
+}
+.quality:nth-child(1)::before,
+.quality:nth-child(2)::before {
+   content: "";
+   width: 1px;
+   height: 346px; 
+   background-color:  var(--text-color); 
+   position: absolute;
+   right: -0.5px; 
 }
 
 
