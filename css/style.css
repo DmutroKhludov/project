@@ -90,11 +90,15 @@
    background: url(../images/fon-premium.jpg);
    background-size: cover; 
    color: var(--text-color);
+   padding-top: 105px;
+   padding-bottom: 105px;
 }
 .section-order{
    background: url(../images/fon-order.jpg);
    background-size: cover;
    color: var(--text-color);
+   padding-top: 24px;
+   padding-bottom: 37px;
 }
 .footer{
    background: var(--footer-color);
@@ -108,8 +112,12 @@
 .language-list{
    display: flex;
 }
-.name-reviews{
+.title{
    font-family: 'Playfair Display', serif;
+   text-align: center;
+   font-size: 48px;
+   line-height: 120%;
+   margin-bottom: 24px;
 }
 .name-order{
    font-family: 'Playfair Display', serif;
@@ -139,6 +147,8 @@
    background: url(../images/fon-reviews.jpg);
    background-size: cover;
    color: var(--text-color);
+   padding-top: 24px;
+   padding-bottom: 105px;
 }
 .ul-reviews{
    display: flex;
