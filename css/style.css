@@ -8,6 +8,9 @@
    --time-color: #D8D8D8;
    --footer-color:#021635;
 }
+body{
+   font-family: 'Roboto', sans-serif;
+}
 .header-list li {
     margin-right: 29px; 
     color: var(--header-black-color);
@@ -16,7 +19,6 @@
     background-color: var(--header-color); 
    padding-top: 16px;
    padding-bottom: 16px;
-   font-family: 'Roboto', sans-serif;
 }
 .section-colorawe {
    background-image: url(../images/fon-nike.jpg);
@@ -36,11 +38,9 @@
     cursor: pointer;
     border-radius: 10px;
     border: none;
-    font-family: 'Roboto', sans-serif;
-    width: 254px;
-    height: 67px;
     font-size: 24px;
-    margin-top: 19px;
+    margin-top: 41px;
+    padding: 20px 61px;
 }
 .language{
    color: var(--header-black-color);
@@ -69,7 +69,6 @@
    margin-bottom: 60px;
    width: 508px;
    height: 84px;
-   font-family: 'Roboto', sans-serif;
 }
 .h1-colorawe{
    font-family: 'Playfair Display', serif;
@@ -112,6 +111,7 @@
 }
 .language-list{
    display: flex;
+   font-size: 24px;
 }
 .title{
    font-family: 'Playfair Display', serif;
@@ -154,7 +154,6 @@
 .ul-reviews{
    display: flex;
    justify-content: space-between;
-   font-family: 'Roboto', sans-serif;
 }
 .reviews-text{
    margin-top: 49px;
@@ -201,29 +200,31 @@
    position: absolute;
    right: -0.5px; 
 }
-.input-item{
-   border-radius: 50px;
-   width: 580px;
-   height: 50px;
-}
 .form-order {
-   text-align: center;
-   display: block;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .input-big-item{
-   width: 690px;
-   height: 60px; 
-   border-radius: 50px;
-   width: 100%; 
-   box-sizing: border-box;
+   width: 690px; 
+   border-radius: 50px; 
    border: none;
    margin-top: 19px;
+   padding: 12px 25px;
 } 
 .input-item{
    width: 580px;
-   height: 50px;
-   align-items: center;
    border: none;
    margin-top: 19px;
-  display: block;
+   border-radius: 50px;
+   padding: 11px 24px;
+}
+.order-button{
+   background-color: var(--Buy-color);
+   border-radius: 16px;
+   border: none;
+   padding: 20px 49px;
+   color: var(--text-color);
+   font-size: 24px;
+   margin-top: 19px;
 }
