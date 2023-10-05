@@ -32,6 +32,8 @@ body{
    display: flex;
    font-size: 24px; 
 }
+
+
 .header-button{
     color: var(--text-color);
     background: var(--Buy-color);
@@ -231,11 +233,13 @@ body{
 .second{
  padding-left: 95px;
  padding-right: 95px;
- margin-left: 50px;
 }
 .one{
    margin-right: 50px;
 }
 .three{
    margin-left: 50px;
+}
+.header-list li:hover {
+   color: var(--text-color);
 }
