@@ -116,6 +116,7 @@ body{
 .language-list{
    display: flex;
    font-size: 24px;
+
 }
 .title{
    font-family: 'Playfair Display', serif;
@@ -256,9 +257,6 @@ body{
    float: left;
    width: 50%;
 }
-.address{
-  
-}
 .div-address a {
    color: var(--text-color);
  }
@@ -267,6 +265,4 @@ body{
 }
 .div-footer{
    padding-top: 45px;
-}
-.footer-colorawe-item{
 }
