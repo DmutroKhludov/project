@@ -1,250 +1,244 @@
-:root{
-   --header-color: #012D63;
-   --Buy-color: #8E32C6;
-   --text-color: #FFFFFF;
-   --header-black-color: #C7C7C7;
-   --order-color: #959595;
-   --ua-color: #DCDCDC;
-   --time-color: #D8D8D8;
-   --footer-color:#021635;
-   --footer-line:#9B9B9B;
-}
-body{
-   font-family: 'Roboto', sans-serif;
-}
-.header-list li {
-    margin-right: 29px; 
-    color: var(--header-black-color);
-}
-.header {
-    background-color: var(--header-color); 
-   padding-top: 16px;
-   padding-bottom: 16px;
-}
-.section-colorawe {
-   background-image: url(../images/fon-nike.jpg);
-   background-size: cover; 
-   background-position: center; 
+
+:root{ 
+   --header-color: #012D63; 
+   --Buy-color: #8E32C6; 
+   --text-color: #FFFFFF; 
+   --header-black-color: #C7C7C7; 
+   --order-color: #959595; 
+   --ua-color: #DCDCDC; 
+   --time-color: #D8D8D8; 
+   --footer-color:#021635; 
+} 
+body{ 
+   font-family: 'Roboto', sans-serif; 
+   margin: 0 auto; 
+} 
+.header-list li { 
+    margin-right: 29px;  
+    color: var(--header-black-color); 
+} 
+.header { 
+    background-color: var(--header-color);  
+   padding-top: 16px; 
+   padding-bottom: 16px; 
+} 
+.section-colorawe { 
+   background-image: url(../images/fon-nike.jpg); 
+   background-size: cover;  
+   background-position: center;  
+   color: var(--text-color);  
+   padding-top: 94px; 
+   padding-bottom: 183px; 
+} 
+.header-list{ 
+   display: flex; 
+   font-size: 24px;  
+} 
+ 
+ 
+.header-button{ 
+    color: var(--text-color); 
+    background: var(--Buy-color); 
+    cursor: pointer; 
+    border-radius: 10px; 
+    border: none; 
+    font-size: 24px; 
+    margin-top: 41px; 
+    padding: 20px 61px; 
+} 
+.language{ 
+   color: var(--header-black-color); 
+   margin: 4px; 
+} 
+.list-quality{ 
+   display: flex; 
+   justify-content: center; 
+} 
+ 
+.container{ 
+   width: 1200px; 
+   margin: 0 auto; 
+   padding: 0 15px; 
+} 
+.colorawe-Nike{ 
+   font-size: 72px; 
+   font-family: 'Playfair Display', serif; 
+   margin-bottom: 12px; 
+} 
+.text-colorawe{ 
+   font-size: 18px; 
+   margin-bottom: 40px; 
+   width: 508px; 
+} 
+.h1-colorawe{ 
+   font-family: 'Playfair Display', serif; 
+   font-size: 144px; 
+   font-style: normal; 
+   font-weight: 400; 
+   line-height: normal; 
+} 
+.name-logo{ 
+   font-size: 48px; 
+   font-family: 'PT Serif', serif; 
+} 
+.logo{ 
+   display: flex; 
+   align-items: center; 
+   justify-content: space-between; 
+} 
+.section-quality{ 
+   background: url(../images/fon-premium.jpg); 
+   background-size: cover;  
    color: var(--text-color); 
-   padding-top: 94px;
-   padding-bottom: 183px;
-}
-.header-list{
-   display: flex;
-   font-size: 24px; 
-}
-
-
-.header-button{
-    color: var(--text-color);
-    background: var(--Buy-color);
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-    font-size: 24px;
-    margin-top: 41px;
-    padding: 20px 61px;
-}
-.language{
-   color: var(--header-black-color);
-   margin: 4px;
-}
-.quality{
-   margin: 145px;
-   font-family: 'Playfair Display', serif;
-}
-.list-quality{
-   display: flex;
-   justify-content: center;
-}
-
-.container{
-   width: 1200px;
-   margin: 0 auto;
-   padding: 0 15px;
-}
-.colorawe-Nike{
-   font-size: 72px;
-   font-family: 'Playfair Display', serif;
-}
-.text-colorawe{
-   font-size: 18px;
-   margin-bottom: 60px;
-   width: 508px;
-   height: 84px;
-}
-.h1-colorawe{
-   font-family: 'Playfair Display', serif;
-   font-size: 144px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-}
-.name-logo{
-   font-size: 48px;
-   font-family: 'PT Serif' serif;
-}
-.logo{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-.section-quality{
-   background: url(../images/fon-premium.jpg);
+   padding-top: 105px; 
+   padding-bottom: 105px; 
+} 
+.section-order{ 
+   background: url(../images/fon-order.jpg); 
    background-size: cover; 
-   color: var(--text-color);
-   padding-top: 105px;
-   padding-bottom: 105px;
-}
-.section-order{
-   background: url(../images/fon-order.jpg);
-   background-size: cover;
-   color: var(--text-color);
-   padding-top: 24px;
-   padding-bottom: 37px;
-   font-family: 'Roboto', sans-serif;
-}
-.footer{
-   background: var(--footer-color);
-   color: var(--text-color);
-}
-.div-list{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-.language-list{
-   display: flex;
-   font-size: 24px;
-
-}
-.title{
-   font-family: 'Playfair Display', serif;
-   text-align: center;
-   font-size: 48px;
-   line-height: 120%;
-   margin-bottom: 24px;
-}
-.name-order{
-   font-family: 'Playfair Display', serif;
-}
-.div-background-john{
-   background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-   box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-   border-radius: 15px;
-   width: 255px;
-   height: 292px;
-}
-.div-background-elizabeth{
-   background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-   box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
-   border-radius: 15px;
-   width: 255px;
-   height: 292px;
-}
-.div-background-tom{
-   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-   box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
-   border-radius: 15px;
-   width: 255px;
-   height: 292px;
-}
-.section-reviews{
-   background: url(../images/fon-reviews.jpg);
-   background-size: cover;
-   color: var(--text-color);
-   padding-top: 24px;
-   padding-bottom: 105px;
-}
-.ul-reviews{
-   display: flex;
-   justify-content: space-between;
-}
-.reviews-text{
-   margin-top: 49px;
-   font-size: 24px;
-   color: var(--text-color);
-   font-style: normal;
-   line-height: normal;
-   font-weight: 400;
-   width: 228px;
-}
-.reviews-time{
+   color: var(--text-color); 
+   padding-top: 24px; 
+   padding-bottom: 37px; 
+} 
+.quality-title{ 
+   font-size: 36px; 
+   text-align: center; 
+} 
+.footer{ 
+   background: var(--footer-color); 
+   color: var(--text-color); 
+} 
+.div-list{ 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+} 
+.language-list{ 
+   display: flex; 
+   font-size: 24px; 
+} 
+.title{ 
+   font-family: 'Playfair Display', serif; 
+   text-align: center; 
+   font-size: 48px; 
+   line-height: 120%; 
+   margin-bottom: 24px; 
+   font-weight: 400; 
+} 
+.name-order{ 
+   font-family: 'Playfair Display', serif; 
+} 
+.div-background-john{ 
+   background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%); 
+   box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978; 
+   border-radius: 15px; 
+   width: 255px; 
+   padding: 49px 10px 29px 18px; 
+} 
+.div-background-elizabeth{ 
+   background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%); 
+   box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C; 
+   border-radius: 15px; 
+   width: 255px; 
+   padding: 49px 10px 29px 18px; 
+} 
+.div-background-tom{ 
+   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%); 
+   box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26; 
+   border-radius: 15px; 
+   width: 255px; 
+   padding: 49px 10px 29px 18px; 
+} 
+.section-reviews{ 
+   background: url(../images/flowers.png), url(../images/fon-reviews.jpg); 
+   background-position: left, center; 
+   background-size: 340px, cover; 
+   background-repeat: no-repeat; 
+   color: var(--text-color); 
+   padding-top: 24px; 
+   padding-bottom: 105px; 
+} 
+.ul-reviews{ 
+   display: flex; 
+   justify-content: space-between; 
+} 
+.reviews-text{ 
+   font-size: 24px; 
+   color: var(--text-color); 
+   font-weight: 400; 
+} 
+.reviews-time{ 
+   font-size: 14px; 
+   color: var(--time-color); 
+   margin-top: 8px; 
+} 
+.reviews-wrap{ 
+   margin-top: 47px; 
+   display: flex; 
+} 
+.reviews-photo{ 
+   margin-right:
+5px;}
+.reviews-name{   
    font-size: 14px;
-   color: var(--time-color);
-   margin-top: 8px;
-}
-.reviews-name{
-   font-size: 14px;
+   font-weight: 400;   
    color: var(--text-color);
 }
 .reviews-data{
-   font-size: 12px;
+   font-size: 12px;   
    color: var(--time-color);
 }
 .quality-div {
-   border: 5px solid var(--Buy-color);
-   padding: 20px; 
-   width: 1110px;
-   height: 396px;
-}
-.quality {
+   border: 5px solid var(--Buy-color);   
+   padding: 25px 20px; 
+   width: 1110px;}
+.quality {   
    display: flex;
    flex-direction: column;
-   align-items: center;
-   margin: 20px 0;
-   position: relative; 
+   align-items: center;   
    font-family: 'Playfair Display', serif;
-}
-.quality:nth-child(1)::before,
-.quality:nth-child(2)::before {
-   content: "";
-   width: 1px;
-   height: 346px; 
-   background-color:  var(--text-color); 
-   position: absolute;
-   right: -0.5px; 
-}
-.form-order {
-   display: flex;
+}.form-order {
+   display: flex;   
    flex-direction: column;
    align-items: center;
 }
-.input-big-item{
+.input-big-item{   
    width: 690px; 
-   border-radius: 50px; 
+   border-radius: 50px;    
    border: none;
-   margin-top: 19px;
+   margin-top: 19px;   
    padding: 12px 25px;
 } 
-.input-item{
+.input-item{   
    width: 580px;
    border: none;
-   margin-top: 19px;
+   margin-top: 19px;   
    border-radius: 50px;
    padding: 11px 24px;
 }
-.order-button{
+.order-button{   
    background-color: var(--Buy-color);
-   border-radius: 16px;
+   border-radius: 16px;  
    border: none;
    padding: 20px 49px;
-   color: var(--text-color);
+   color: var(--text-color);   
    font-size: 24px;
    margin-top: 19px;
 }
-.second{
- padding-left: 95px;
- padding-right: 95px;
+.second{ 
+   padding-left: 95px;
+ padding-right: 95px; 
+ border-left: 1px solid var(--text-color);
+ border-right: 1px solid var(--text-color);
 }
-.one{
-   margin-right: 50px;
-}
-.three{
+.one{  
+    margin-right: 50px;
+}.three{
    margin-left: 50px;
 }
-.header-list li:hover {
-   color: var(--text-color);
+.header-list li:hover{  
+color: var(--text-color);
+cursor: pointer;
 }
 .div-address{
    border-bottom: 1px solid var(--footer-line);
