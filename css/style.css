@@ -8,6 +8,7 @@
    --ua-color: #DCDCDC; 
    --time-color: #D8D8D8; 
    --footer-color:#021635; 
+   --footer-line:#9B9B9B;
 } 
 body{ 
    font-family: 'Roboto', sans-serif; 
