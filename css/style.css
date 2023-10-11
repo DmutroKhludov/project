@@ -35,7 +35,9 @@ body{
    display: flex; 
    font-size: 24px;  
 } 
- 
+.header-button li:hover{
+     color: #9159B1;
+}
  
 .header-button{ 
     color: var(--text-color); 
@@ -178,8 +180,8 @@ body{
    display: flex; 
 } 
 .reviews-photo{ 
-   margin-right:
-5px;}
+   margin-right:5px;
+}
 .reviews-name{   
    font-size: 14px;
    font-weight: 400;   
@@ -198,7 +200,8 @@ body{
    flex-direction: column;
    align-items: center;   
    font-family: 'Playfair Display', serif;
-}.form-order {
+}
+.form-order {
    display: flex;   
    flex-direction: column;
    align-items: center;
@@ -234,7 +237,8 @@ body{
 }
 .one{  
     margin-right: 50px;
-}.three{
+}
+.three{
    margin-left: 50px;
 }
 .header-list li:hover{  
@@ -245,19 +249,51 @@ cursor: pointer;
    border-bottom: 1px solid var(--footer-line);
    padding-bottom: 20px;
 }
-.footer-colorawe{
-  padding-top: 20px;
-}
-.footer-ul{
-   float: left;
-   width: 50%;
-}
 .div-address a {
    color: var(--text-color);
  }
 .first-child{
    padding-left: 32px;
 }
-.div-footer{
-   padding-top: 45px;
+
+.footer{  
+   background-color: var(--footer-color);  
+   padding-top: 45px;  
+   padding-bottom: 45px;  
+}  
+.footer-wrap{  
+   display: flex;  
+   justify-content: space-between;  
+   padding-bottom: 20px;  
+   border-bottom: 1px solid var(--text-color);  
+   margin-bottom: 20px;  
+}  
+.footer-right{  
+   text-align: right;  
+   text-decoration: solid;  
+}  
+.footer-text{  
+   color: var(--text-color);  
+   font-size: 24px;  
+   margin-bottom: 10px;  
+}  
+.footer-email{  
+   color: var(--text-color);  
+font-size: 24px;  
+text-decoration-line: underline;  
+margin-bottom: 10px;  
+}  
+ 
+.footer-wrapper{  
+   display: flex;  
+   justify-content: space-between;  
+}  
+.footer-link{  
+   margin-bottom: 10px;  
+}  
+.footer-title{  
+   color: var(--text-color);  
+   font-size: 24px;  
+   font-family: 'PT Serif', serif;  
+   text-align: right;  
 }
